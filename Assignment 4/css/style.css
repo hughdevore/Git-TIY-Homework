@@ -1,0 +1,85 @@
+
+.menu {
+	height: 45px;
+	width: 55px;
+	background-color: #aaa;
+	position: fixed;
+}
+
+.header {
+	height: 137px;
+	width: 0 auto;
+	top: 45px;
+	padding: 55px 0px 0px 0px;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 300;
+	font-family: sans-serif;
+}
+.sub-title {
+	text-align: center;
+	padding: 15px 18px 0px 18px;
+	font-size: .5em;
+}
+
+
+.textbox1 {
+	padding: 45px 30px 0px 30px;
+	height: 225px;
+	display: block;
+	color: rgb(119, 119, 119);
+}
+.title1 {
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: 300;
+}
+.text1 {
+	padding-top: 25px;
+	font-family: sans-serif;
+	line-height: 1.5em;
+	font-size: 17px
+}
+
+
+.textbox2 {
+	padding: 25px 30px 0px 30px;
+	height: 325px;
+	display: block;
+	color: rgb(119, 119, 119);
+}
+.title2 {
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: 300;
+}
+.text2 {
+	padding-top: 20px;
+	font-family: sans-serif;
+	line-height: 1.5em;
+	font-size: 17px
+}
+
+.pictures {
+	height: 85px;
+	padding-top: 20px;
+}
+
+.textbox3 {
+	padding: 45px 30px 0px 30px;
+	height: 225px;
+	display: block;
+	color: rgb(119, 119, 119);
+}
+.title3 {
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: 300;
+}
+.text3 {
+	padding-top: 20px;
+	padding-bottom: 55px;
+	font-family: sans-serif;
+	line-height: 1.5em;
+	font-size: 17px
+}
