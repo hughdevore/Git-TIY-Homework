@@ -1,0 +1,16 @@
+
+.green {
+	background-color: green;
+	width: 30%;
+	height: 300px;
+	padding: 30px;
+}
+.blue {
+	background-color: blue;
+	width: 30%;
+	position: absolute; 
+	top: 50px;
+	left: 50px;
+	height: 300px;
+	padding: 30px;
+}
