@@ -1,31 +1,111 @@
-
+.page {
+	margin-left: 150px;
+	left: 0;
+}
 .menu {
 	height: 45px;
 	width: 55px;
-	background-color: #aaa;
+	background-color: rgba(0, 0, 0, 0.7);
 	position: fixed;
 }
+.menu:hover {
+	background-color: black;
+}
+.menu-box {
+	font-size: 1.5em;
+	color: white;
+	margin: 17px;
+}
+#hamburger {
+	margin-top: 10px;
+
+}
+
+
+
+.side-bar {
+	background-color: black;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 150px;
+	font-family: sans-serif;
+	color: #999;
+	margin-left: 0px;
+}
+.company {
+	font-size: 1.1em;
+	padding: 0.8em 0em 0.8em .65em;
+	background-color: #1f8dd6;
+	text-decoration: none;
+	color: white;
+	width: 138px;
+	display: block;
+}
+.home {
+	padding: 0.875em 0em 0.875em .65em;
+	display: block;
+	text-decoration: none;
+	color: rgb(153, 153, 153);
+}
+.home:hover {
+	background-color: #333333;
+}
+.about{
+	padding: 0.875em 0em 0.875em .65em;
+	width: 138px;
+	display: block;
+	text-decoration: none;
+	color: rgb(153, 153, 153);
+}
+.about:hover {
+	background-color: #333333;
+}
+.services {
+	padding: 0.875em 0em 0.875em .65em;
+	background-color: #1f8dd6;
+	text-decoration: none;
+	color: white;
+	width: 138px;
+	display: block;
+}
+.services:hover {
+	background-color: #333333;
+	color: white;
+}
+.contact {
+	padding: 0.8em 0em 0.8em .65em;
+	width: 138px;
+	display: block;
+	text-decoration: none;
+	color: rgb(153, 153, 153);
+}
+.contact:hover {
+	background-color: #333333;
+}
+
+
 
 .header {
-	height: 137px;
 	width: 0 auto;
 	top: 45px;
-	padding: 55px 0px 0px 0px;
+	padding: 55px 0px 25px 0px;
 	text-align: center;
 	font-size: 48px;
 	font-weight: 300;
 	font-family: sans-serif;
+	border-bottom:1px solid #eee;
 }
 .sub-title {
 	text-align: center;
 	padding: 15px 18px 0px 18px;
 	font-size: .5em;
+	color: #ccc;
 }
 
 
 .textbox1 {
-	padding: 45px 30px 0px 30px;
-	height: 225px;
+	padding: 45px 30px 22px 30px;
 	display: block;
 	color: rgb(119, 119, 119);
 }
@@ -43,8 +123,7 @@
 
 
 .textbox2 {
-	padding: 25px 30px 0px 30px;
-	height: 325px;
+	padding: 30px 30px 15px 30px;
 	display: block;
 	color: rgb(119, 119, 119);
 }
@@ -61,13 +140,27 @@
 }
 
 .pictures {
-	height: 85px;
-	padding-top: 20px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0px;
+	max-width: 800px;
+	padding: 0px 30px 10px 30px;
+}
+.pic1 {
+	width: 25%
+}
+.pic2 {
+	width: 25%
+}
+.pic3 {
+	width: 25%
+}
+.pic4 {
+	width: 25%
 }
 
 .textbox3 {
 	padding: 45px 30px 0px 30px;
-	height: 225px;
 	display: block;
 	color: rgb(119, 119, 119);
 }
@@ -82,4 +175,27 @@
 	font-family: sans-serif;
 	line-height: 1.5em;
 	font-size: 17px
+}
+
+
+
+@media (max-width: 768px) {
+	.side-bar {
+		margin-left: -150px;
+	}
+	.page {
+		float: right;
+	}
+}
+@media (max-width: 1025px) {
+	.page {	
+		margin: 0 auto;
+    	padding-left: 0 auto;
+    	padding-right: 0 auto;
+    	max-width: 800px}
+    .textbox1 {
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+    }
+
 }
