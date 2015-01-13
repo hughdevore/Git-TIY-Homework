@@ -1,3 +1,11 @@
+$desktop-width: 1024px;
+
+@mixin desktop {
+	@media {min-width: #{$desktop-width}) {
+		@content;
+	}
+}
+
 #header {
 	background-color: #007BA7;
 }
@@ -9,7 +17,7 @@
 #header .about-search a{
 	text-decoration: none;
 	font-size: 1em;
-	font-family: "Arial Narrow", Arial, sans-serif;
+	font-family: 'Oswald';
 	padding: 0.5em;
 	color: rgb(7, 53, 81);
 }
@@ -219,4 +227,10 @@
 	color: rgb(142, 160, 174);
 	font-size: 1.5em;
 	line-height: 1.5em;
+}
+
+
+@media (max-width: 768px) {
+
+
 }
